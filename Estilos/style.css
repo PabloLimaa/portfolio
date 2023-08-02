@@ -114,8 +114,11 @@ body {
     font-weight: 400;
 }
 
-.tamanho__foto {
-    width: 50%;    
+.coluna_fotos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
 }
 
 .apresentacao__imagem {
@@ -131,9 +134,8 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
-
     }
 
     .apresentacao__conteudo {
