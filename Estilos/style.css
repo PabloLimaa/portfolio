@@ -49,6 +49,14 @@ body {
     gap: 80px;
 }
 
+.apresentacao_sobre {
+    padding: 5% 5%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
 .apresentacao__conteudo {
     width: 50%;
     display: flex;
@@ -134,8 +142,12 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 5%;
+    }
+
+    .apresentacao_sobre {
+        flex-direction: column;
     }
 
     .apresentacao__conteudo {
