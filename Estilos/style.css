@@ -164,6 +164,24 @@ body {
     .apresentacao__conteudo {
         width: 92%;
     }
+
+    .apresentacao__conteudo___titulo {
+        font-size: 1.5rem;
+        font-family: var(--font-primaria);
+        width: 99%;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.1rem;
+        font-family: var(--font-secundaria);
+        text-align: justify;
+    }
+
+    .apresentacao__links_subtitulo {
+        font-family: var(--font-primaria);
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
 }
 
 
